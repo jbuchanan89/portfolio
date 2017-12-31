@@ -17,11 +17,17 @@ header {
 header p{
 	text-align: center;
 	font-family: 'Dancing Script', cursive;
-	font-size: 18px;
+	font-size: 30px;
 	font-weight: normal;
 	color: #FFCE00;
+	margin: 0;
 }
 
+.location {
+	color: #FFF;
+	margin: 0;
+	font-size: 25px;
+}
 header h1 {
 	font-family: 'Dancing Script', cursive;
 	margin: 0;
@@ -130,17 +136,16 @@ footer {
 
 #about {
 	text-align: center;
-	width: 50%;
+	width: 60%;
 }
 
 #about img{
 	border-radius: 50%;
-	width: 50%;
+	width: 30%;
 }
 
 #about p{
 	color: #062F4F;
-	margin: 0 auto;
 	font-size: 20px;
 }
 
@@ -158,10 +163,10 @@ footer {
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
-	width: 60px;
 	opacity: .8;
-	border-radius: 50%;
-	margin-right: 10px;
+	margin-right: 20px;
+	font-size: 30px;
+	color: #062F4F;
 }
 
 .contact-list {
