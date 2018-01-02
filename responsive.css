@@ -9,13 +9,25 @@
 	margin: ;
 }
 
+.about-section {
+	height: auto;
+}
 #about {
 	width: 91.66%;
+	font-size: 30px;
+}
+
+.summary{
+	width: 100%;
+	margin: 10px;
 }
 
 #about img{
 	border-radius: 50%;
-	width: 50%;
+	width: 40%;
+	display: block;
+	float: none;
+	margin: 0 auto;
 }
 
 }
