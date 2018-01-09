@@ -1,34 +1,35 @@
 @media screen and (max-width: 960px) {
 
-#projects {
-	width: 80%;
-}
+	#projects {
+		width: 80%;
+	}
 
-.project {
-	width: 100%;
-	margin: ;
-}
+	.project {
+		width: 100%;
+		margin: ;
+	}
 
-.about-section {
-	height: auto;
-}
-#about {
-	width: 91.66%;
-	font-size: 30px;
-}
+	.about-section {
+		height: auto;
+	}
 
-.summary{
-	width: 100%;
-	margin: 10px;
-}
+	#about {
+		width: 91.66%;
+		font-size: 40px;
+	}
 
-#about img{
-	border-radius: 50%;
-	width: 40%;
-	display: block;
-	float: none;
-	margin: 0 auto;
-}
+	.summary{
+		width: 100%;
+		margin: 10px;
+	}
+
+	#about img{
+		border-radius: 50%;
+		width: 40%;
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
 
 }
 
