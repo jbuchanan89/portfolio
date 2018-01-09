@@ -45,10 +45,6 @@ h2, h3, h4{
 	font-size: 25px;
 }
 
-.center{
-  text-align: center;
-}
-
 main {
 	margin: 20px auto;
 	width: 60%;
@@ -70,7 +66,6 @@ section img{
 	text-align: center;
 	border-bottom: 1px solid #FFCE00;
 	padding: 20px;
-	margin-top: 40px;
 }
 
 .project p{
@@ -127,6 +122,9 @@ section img{
 	font-size: 20px;
 }
 
+#about h2 {
+	text-align: left;
+}
 
 /*CONTACT LIST*/
 .contact-list-footer {
