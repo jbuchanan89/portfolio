@@ -18,9 +18,11 @@
 		font-size: 40px;
 	}
 
-	.summary{
+	.summary {
 		width: 100%;
 		margin: 10px;
+		display: block;
+		float: none;
 	}
 
 	#about img{
