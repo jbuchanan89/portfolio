@@ -13,10 +13,25 @@
 		height: auto;
 	}
 
-	#about {
-		width: 91.66%;
-		font-size: 40px;
+	.about-left {
+	  width: 100%;
+	  float: left;
+	  color: #062F4F;
+	  text-align: center;
 	}
+
+	.about-left img {
+	  width: 40%;
+	  padding: 5px;
+	  border-radius: 50%;
+	}
+
+	.about-right {
+		width: 91.66%;
+		text-align: center;
+		margin: 4.17%;
+	}
+
 
 	.summary {
 		width: 100%;
