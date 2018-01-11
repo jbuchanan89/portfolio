@@ -88,8 +88,9 @@ main {
 }
 
 /*Project List*/
+
 section{
-	margin: 40px auto;
+	margin: 200px auto 30px auto;
 	width: 80%;
 }
 
@@ -97,10 +98,11 @@ section img{
 	width: 100%;
 }
 
-.project {
+section .project {
 	text-align: center;
 	border-bottom: 1px solid #FFCE00;
 	padding: 20px;
+	margin: 50px auto;
 }
 
 .project p{
