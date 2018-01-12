@@ -36,8 +36,7 @@ h2, h3, h4{
 	font-size: 50px;
 	font-weight: bold;
 	width: 100%;
-	margin-bottom: 20px;
-	margin-top: 0px;
+	margin-bottom: 10px;
 }
 
 .location {
@@ -56,11 +55,11 @@ main {
     overflow: auto;
     width: 80%;
     margin: 0 auto;
-}
+}gi
 
 .about-section h2 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .about-left {
@@ -86,7 +85,7 @@ main {
 	width: 75%;
 	color: #062F4F;
 	font-size: 20px;
-	margin: 10px auto;
+	margin: 5px 5px;
 	text-align: center;
 }
 
@@ -128,8 +127,10 @@ section .project {
 .project a{
 	width: 100px;
 	display: inline-block;
-	margin: 0 10px;
 	font-size: 20px;
+	padding: 10px;
+	font-weight: bold;
+	margin: 10px;
 }
 
 .project a:link,
@@ -138,11 +139,6 @@ section .project {
 	text-decoration: none;
 	color: #FFF;
 	background-color: #062F4F;
-}
-
-.project .link {
-	color: #FFF;
-	margin: 10px;
 }
 
 .site-name{
