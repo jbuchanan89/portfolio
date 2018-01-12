@@ -37,6 +37,7 @@ h2, h3, h4{
 	font-weight: bold;
 	width: 100%;
 	margin-bottom: 20px;
+	margin-top: 0px;
 }
 
 .location {
@@ -51,6 +52,10 @@ main {
 	height: 400px;
 }
 
+#projects {
+	postion: relative;
+}
+
 .about-section h2 {
   text-align: center;
 }
@@ -58,23 +63,31 @@ main {
 .about-left {
   width: 20%;
   float: left;
-  color: #062F4F
+  color: #062F4F;
+  overflow: auto;
 }
 
 .about-left img {
   width: 80%;
-  padding: 5px;
   border-radius: 50%;
+  padding: 5px;
+  display: block;
+  margin: 0 auto;
 }
 
-/*.about-right {
+.about-right {
   width: 80%;
   float: left;
-}*/
+  height: 300px;
+  padding: 40px;
+}
 
 .about-section p {
+	width: 100%;
 	color: #062F4F;
 	font-size: 20px;
+	margin: 30px auto;
+	text-align: center;
 }
 
 .contact-list-footer {
@@ -90,12 +103,12 @@ main {
 /*Project List*/
 
 section{
-	margin: 200px auto 30px auto;
 	width: 80%;
+	margin: 50px auto;
 }
 
 section img{
-	width: 100%;
+	width: 60%;
 }
 
 section .project {
@@ -106,9 +119,10 @@ section .project {
 }
 
 .project p{
-	margin-bottom: 25px;
+	margin:25px auto 25px auto;
 	color: #062F4F;
 	font-size: 25px;
+	width: 60%;
 }
 
 .project a{
