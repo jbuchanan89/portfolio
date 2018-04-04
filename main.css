@@ -69,10 +69,11 @@ main {
 }
 
 .about-left img {
-  width: 80%;
+  width: 75%;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
+  height: auto;
 }
 
 .about-right {
